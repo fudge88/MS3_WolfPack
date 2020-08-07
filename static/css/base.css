@@ -3,10 +3,10 @@ html {
 }
 
 body {
-    background: url('/media/home_page.jpg') no-repeat center center fixed;
+    background: url('/media/home-cover.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh -164px);
-    color: #888888;
+    color: #cccccc;
     font-family: 'Roboto';
 }
 .dropdown-item{
@@ -29,6 +29,11 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
+
+.heading-font{
+    font-family: 'Black Ops One', cursive;
+}
+
 
 .logo-font {
     text-transform: uppercase;
