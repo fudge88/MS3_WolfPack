@@ -20,6 +20,9 @@ body {
     z-index: -1;
 }
 
+.heading-color{
+    color: #000000c7;
+}
 
 .nav-link {
     display: block;
@@ -119,4 +122,17 @@ b, strong {
     .header-container {
         padding-top: 164px;
     }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+    .mt-3, .my-3 {
+    margin-top: 3rem!important;
 }
