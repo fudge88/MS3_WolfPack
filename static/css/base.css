@@ -100,6 +100,11 @@ b, strong {
     border: 1px solid black !important;
 }
 
+a.category-badge > span.badge:hover {
+    background: #de9817 !important;
+    color: #222 !important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
