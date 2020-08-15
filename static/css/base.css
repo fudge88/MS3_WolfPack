@@ -42,6 +42,8 @@ b, strong {
     background-color: #000000c7;
 }
 
+
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -103,6 +105,14 @@ b, strong {
 a.category-badge > span.badge:hover {
     background: #de9817 !important;
     color: #222 !important;
+}
+
+.btt-button{
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
 
 /* -------------------------------- Media Queries */
