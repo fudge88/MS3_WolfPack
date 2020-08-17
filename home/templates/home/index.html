@@ -1,32 +1,21 @@
-{% extends "base.html" %}
-{% load static %}
-
-{% block page_header %}
+{% extends "base.html" %} {% load static %} {% block page_header %}
 <div class="container header-container">
-	<div class="row">
-		<div class="col"></div>
-	</div>
+  <div class="row">
+    <div class="col"></div>
+  </div>
 </div>
-{% endblock %}
-
-{% block content %}
+{% endblock %} {% block content %}
 <div class="container">
-	<div class="row h-100">
-		<div class="col-7 col-md-6 my-auto">
-			<h1 class="display-4 heading-font">Be the WOLF;</h1> 
-            <h3>relentless, never quits, and doesn't look back.</h3>
-			<div class="my-5">
-				<h4>
-					<a href="" class="shop-now-button btn btn-lg rounded-0 text-upercase py-3">Male</a>
-                    <a href="" class="shop-now-button btn btn-lg rounded-0 text-upercase py-3">Female</a>
-				</h4>
-			</div>
-            			<div class="my-5">
-				<h4>
-					<a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-upercase py-3">Shop Now</a>
-				</h4>
-			</div>
-		</div>
-	</div>
+  <div class="row h-100">
+    <div class="col text-center">
+        <div class="home-page-heading">Be the WOLF;</div>
+        <h4 class="opaque-grey">Relentless, never quits, and doesn't look back.</h4>
+        <div class="my-5">
+          <h4>
+            <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-upercase py-3" >Shop Now</a>
+          </h4>
+        </div>
+    </div>
+  </div>
 </div>
 {% endblock %}

@@ -58,6 +58,12 @@ b, strong {
     list-style: none;
 }
 
+.lg-promo-strip li{
+    display: inline;
+    justify-content:space-around;
+    list-style-type:none;
+}
+
 .carousel-indicators li {
     height: 5px;
     width: 5px;
@@ -76,14 +82,24 @@ b, strong {
 .promo-strip{
     color: white;
     background-color: #de9817;
-    text-transform: uppercase;
-    padding: 3px
+
+}
+
+.opaque-grey{
+    color: #cccccc77;
 }
 
 .heading-font{
     font-family: 'Black Ops One', cursive;
 }
 
+.home-page-heading{
+    font-family: 'Black Ops One', cursive;
+    font-size: 8rem;
+    color: #cccccc77;
+    padding-top: 13rem;
+    line-height: 100px;
+}
 
 .logo-font {
     text-transform: uppercase;
@@ -95,7 +111,7 @@ b, strong {
 }
 
 .shop-now-button {
-    background: black;
+    background-color: #de9817b3;
     color: white;
     min-width: 260px;
 }
@@ -136,6 +152,13 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -171,4 +194,16 @@ a.category-badge > span.badge:hover {
     }
     .mt-3, .my-3 {
     margin-top: 3rem!important;
+}
+
+}
+
+
+@media (max-width: 767px) {
+.promo-strip{
+    color: white;
+    background-color: #de9817;
+    text-transform: uppercase;
+    padding: 3px;
+}
 }
