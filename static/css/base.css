@@ -131,6 +131,12 @@ b, strong {
     color: white;
 }
 
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
 .text-black {
     color: #000 !important;
 }
